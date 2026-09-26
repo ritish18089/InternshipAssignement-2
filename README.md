@@ -36,14 +36,27 @@ The automation verifies the PrivacyLedger website including:
 ## 4. Project Structure
 
 ```text
-privacyledger-playwright/
-├── tests/
-│   └── privacyledger.spec.ts   # Main test suite containing TC01 - TC05
-├── playwright.config.ts        # Playwright configuration (browsers, timeouts, reporters)
-├── package.json                # Project metadata and npm dependencies
-├── tsconfig.json               # TypeScript configuration
-├── README.md                   # How to set up and run the project
-└── AUTOMATION_REPORT.md        # Test automation report and execution results
+Assignment 2/
+│
+├── privacyledger-playwright/
+│   │
+│   ├── tests/
+│   │   └── privacyledger.spec.ts
+│   │
+│   ├── pages/
+│   │   ├── contact.js
+│   │   └── inspect.js
+│   │
+│   ├── playwright-report/
+│   ├── test-results/
+│   │
+│   ├── playwright.config.ts
+│   ├── package.json
+│   ├── package-lock.json
+│   └── tsconfig.json
+│
+├── README.md
+└── AUTOMATION_REPORT.md
 ```
 
 ## 5. Installation
