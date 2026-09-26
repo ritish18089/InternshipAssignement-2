@@ -127,15 +127,9 @@ The following functional scopes were covered by the automation suite:
 
 
 
-## . Validation / Assertions
+## 8. Validation / Assertions
 
 The suite leverages Web-First Assertions (`expect().toBeVisible()`) extensively to ensure stable, auto-retrying validations against modern React architectures without relying on arbitrary sleep timeouts. Additional DOM-level evaluations were constructed to strictly assert window scroll properties and intercept dynamic network requests to prevent polluting production environments.
-
-## 8. Execution Command
-
-```bash
-npx playwright test --project=chromium --headed --workers=1
-```
 
 ## 9. Test Execution Evidence
 
